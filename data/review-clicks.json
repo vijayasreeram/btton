@@ -1,0 +1,170 @@
+[
+  {
+    "id": "clk_1793019936460_aj49",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "feedback",
+    "timestamp": "2026-10-26T13:05:36.459Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793019936458_3o4u",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T13:05:36.457Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793019936456_bm5l",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T13:05:36.455Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793019468060_e9ng",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "feedback",
+    "timestamp": "2026-10-26T12:57:48.060Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793019468059_tpg9",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:57:48.059Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793019468058_9hk7",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:57:48.057Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793018505780_8q8t",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:41:45.779Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "clk_1793018457677_hw57",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "button",
+    "timestamp": "2026-10-26T12:40:57.675Z",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.9711"
+  },
+  {
+    "id": "clk_1793017720967_4hga",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:28:40.966Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "clk_1793017694015_at5y",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:28:14.014Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "clk_1793017583136_puxj",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:26:23.135Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "clk_1793017579132_60mh",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:26:19.131Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "clk_1793017512420_wynf",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:25:12.419Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "clk_1793017508339_kj7u",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:25:08.337Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "clk_1793017370614_9mi7",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:22:50.613Z",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.9711"
+  },
+  {
+    "id": "clk_1793017291362_5m7x",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "feedback",
+    "timestamp": "2026-10-26T12:21:31.362Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793017291361_dp7v",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:21:31.361Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793017291361_y7jo",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:21:31.360Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793017267353_oqt0",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "feedback",
+    "timestamp": "2026-10-26T12:21:07.352Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793017267352_z75o",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:21:07.352Z",
+    "userAgent": ""
+  },
+  {
+    "id": "clk_1793017267351_jfty",
+    "hotelId": "hotel-beta",
+    "branchId": "main",
+    "placement": "qr_menu",
+    "timestamp": "2026-10-26T12:21:07.351Z",
+    "userAgent": ""
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "call_1792818422312_e9qa5",
+    "table": "Table 4",
+    "slug": "anbude-cafe",
+    "type": "bill",
+    "subType": "upi",
+    "title": "Bill Request (UPI Payment)",
+    "note": "Need GST bill",
+    "paymentMethod": "upi",
+    "status": "cancelled",
+    "createdAt": "2026-10-24T05:07:02.312Z",
+    "updatedAt": "2026-10-24T05:26:19.157Z"
+  },
+  {
+    "id": "call_1792818409027_rm65j",
+    "table": "Table 3",
+    "slug": "anbude-cafe",
+    "type": "waiter",
+    "subType": "water",
+    "title": "Drinking Water",
+    "note": "Cold water please",
+    "paymentMethod": null,
+    "status": "cancelled",
+    "createdAt": "2026-10-24T05:06:49.027Z",
+    "updatedAt": "2026-10-24T05:07:14.956Z"
+  }
+]

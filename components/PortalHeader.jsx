@@ -1,6 +1,7 @@
 'use client';
 
 import { MapPin, Star, Coffee, Utensils, Users } from 'lucide-react';
+import GoogleReviewButton from './GoogleReviewButton';
 
 export default function PortalHeader({ restaurant, googleReviewUrl }) {
   const name = restaurant?.name || "Anbu'de Cafe";
@@ -124,9 +125,9 @@ export default function PortalHeader({ restaurant, googleReviewUrl }) {
         )}
 
         {/* Dual Cards: Open Now (#F0FFF6) + Rating & Review Count (#FEFCE8) */}
-        <div className="grid grid-cols-2 gap-2 min-[360px]:gap-2.5 w-full mt-3.5">
+        <div className="grid grid-cols-2 gap-2 min-[360px]:gap-2.5 w-full mt-3.5 items-stretch">
           {/* Card 1: Open Now */}
-          <div className="bg-[#F0FFF6] border border-[#16B86A]/30 rounded-2xl py-2 px-2 min-[360px]:py-2.5 min-[360px]:px-3 text-center shadow-2xs">
+          <div className="bg-[#F0FFF6] border border-[#16B86A]/30 rounded-2xl py-2 px-2 min-[360px]:py-2.5 min-[360px]:px-3 text-center shadow-2xs flex flex-col justify-center">
             <div className="flex items-center justify-center gap-1.5">
               <span className="w-2.5 h-2.5 rounded-full bg-[#16B86A] animate-pulse" />
               <span className="text-[13px] min-[360px]:text-[14px] font-extrabold text-[#16B86A] font-sans">
@@ -138,38 +139,13 @@ export default function PortalHeader({ restaurant, googleReviewUrl }) {
             </p>
           </div>
 
-          {/* Card 2: Rating & Reviews (Direct Google Review Link on Mobile) */}
-          {googleReviewUrl ? (
-            <a
-              href={googleReviewUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#FEFCE8] border border-[#FDE68A] hover:border-[#FFB800] rounded-2xl py-2 px-2 min-[360px]:py-2.5 min-[360px]:px-3 text-center shadow-2xs transition-all active:scale-95 group cursor-pointer"
-              title="Rate us on Google Maps"
-            >
-              <div className="flex items-center justify-center gap-1.5">
-                <Star className="w-4 h-4 fill-[#EAB308] text-[#EAB308]" />
-                <span className="text-[13px] min-[360px]:text-[14px] font-extrabold text-[#8B4513] font-sans group-hover:text-amber-950">
-                  {ratingText}
-                </span>
-              </div>
-              <p className="text-[10.5px] font-medium text-[#718096] mt-0.5 font-sans">
-                Customer Reviews
-              </p>
-            </a>
-          ) : (
-            <div className="bg-[#FEFCE8] border border-[#FDE68A] rounded-2xl py-2 px-2 min-[360px]:py-2.5 min-[360px]:px-3 text-center shadow-2xs">
-              <div className="flex items-center justify-center gap-1.5">
-                <Star className="w-4 h-4 fill-[#EAB308] text-[#EAB308]" />
-                <span className="text-[13px] min-[360px]:text-[14px] font-extrabold text-[#8B4513] font-sans">
-                  {ratingText}
-                </span>
-              </div>
-              <p className="text-[10.5px] font-medium text-[#718096] mt-0.5 font-sans">
-                Customer Reviews
-              </p>
-            </div>
-          )}
+          {/* Card 2: Rating & Reviews (Dynamic Google Review Button) */}
+          <GoogleReviewButton
+            hotelId={restaurant?.slug || 'anbude-cafe'}
+            variant="badge"
+            placement="header"
+            fallbackUrl={googleReviewUrl}
+          />
         </div>
 
         {/* Location Pill */}

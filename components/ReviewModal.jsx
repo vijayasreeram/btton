@@ -1,13 +1,14 @@
 'use client';
 
 import { X, Star, ExternalLink } from 'lucide-react';
+import GoogleReviewButton from './GoogleReviewButton';
 
-export default function ReviewModal({ isOpen, onClose, restaurant }) {
+export default function ReviewModal({ isOpen, onClose, restaurant, hotelId }) {
   if (!isOpen) return null;
 
   const name = restaurant?.name || "Anbu'de Cafe";
   const address = restaurant?.address || '';
-  // Construct a Google search/review direct intent or custom URL
+  const effectiveHotelId = hotelId || restaurant?.slug || 'anbude-cafe';
   const googleReviewUrl =
     restaurant?.googleReviewUrl ||
     `https://www.google.com/search?q=${encodeURIComponent(
@@ -57,25 +58,23 @@ export default function ReviewModal({ isOpen, onClose, restaurant }) {
           </p>
         </div>
 
-        {/* Buttons */}
-        <div className="flex gap-2">
+        {/* Dynamic Google Review Button */}
+        <div className="space-y-2">
+          <GoogleReviewButton
+            hotelId={effectiveHotelId}
+            variant="default"
+            placement="review_modal"
+            fallbackUrl={googleReviewUrl}
+            onClick={onClose}
+          />
+
           <button
             type="button"
             onClick={onClose}
-            className="flex-1 py-3 px-4 rounded-xl border border-gray-200 text-gray-600 text-xs font-semibold hover:bg-gray-50 transition"
+            className="w-full py-2.5 px-4 rounded-xl text-gray-500 text-xs font-semibold hover:bg-gray-50 transition"
           >
             Maybe Later
           </button>
-          <a
-            href={googleReviewUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={onClose}
-            className="flex-1 py-3 px-4 rounded-xl bg-[#FFBB17] hover:bg-[#E5A710] text-gray-950 text-xs font-bold transition flex items-center justify-center gap-1.5 shadow-sm"
-          >
-            <span>Rate on Google</span>
-            <ExternalLink className="w-3.5 h-3.5" />
-          </a>
         </div>
       </div>
     </div>

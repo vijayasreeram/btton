@@ -1,0 +1,125 @@
+[
+  {
+    "id": "rev_anbude_main",
+    "hotelId": "anbude-cafe",
+    "branchId": "main",
+    "hotelName": "Anbu'de Cafe",
+    "location": "Maraimalai Nagar, Chennai",
+    "branchName": "Main Branch",
+    "address": "Vallal MGR Salai, Maraimalai Nagar, Tamil Nadu 603209",
+    "placeId": "",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Anbu+cafe+Maraimalai+Nagar+Tamil+Nadu",
+    "buttonLabel": "Review us on Google",
+    "theme": "light",
+    "customColors": {
+      "bg": "#FFFFFF",
+      "text": "#101B35",
+      "border": "#E8EAF0",
+      "hoverBg": "#FFF8E7"
+    },
+    "placement": [
+      "qr_menu",
+      "header",
+      "feedback",
+      "review_modal",
+      "website"
+    ],
+    "status": "active",
+    "verified": true,
+    "clickCount": 23,
+    "createdAt": "2026-10-24T09:18:00.000Z",
+    "updatedAt": "2026-10-26T12:41:45.779Z"
+  },
+  {
+    "id": "rev_anbude_airport",
+    "hotelId": "anbude-cafe",
+    "branchId": "airport",
+    "hotelName": "KFC",
+    "location": "Ground &1st Foor, Survey No, 712/3A4, Bagalur Road, next to TVS showroom, NGGOS Colony, Krishnagiri, Tamil Nadu 602001",
+    "branchName": "Airport Express Outlet",
+    "address": "Meenambakkam, Chennai, Tamil Nadu 600027",
+    "placeId": "",
+    "reviewUrl": "https://www.google.com/maps/place/KFC/@13.0795577,79.8359729,12z/data=!4m10!1m2!2m1!1skfc!3m6!1s0x3a52914a0cbde151:0xdedc202c517a72be!8m2!3d13.132881!4d79.909241!15sCgNrZmMiA4gBAVoFIgNrZmOSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11vs2x6_xh?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "buttonLabel": "Rate on Google",
+    "theme": "dark",
+    "customColors": {
+      "bg": "#101B35",
+      "text": "#FFFFFF",
+      "border": "#FFB800",
+      "hoverBg": "#1A294A"
+    },
+    "placement": [
+      "qr_menu",
+      "header",
+      "feedback",
+      "review_modal"
+    ],
+    "status": "active",
+    "verified": true,
+    "clickCount": 8,
+    "createdAt": "2026-10-24T12:00:00.000Z",
+    "updatedAt": "2026-10-26T18:00:00.000Z"
+  },
+  {
+    "id": "rev_grand_palace_main",
+    "hotelId": "grand-palace",
+    "branchId": "main",
+    "hotelName": "Grand Palace Hotel & Restaurant",
+    "location": "T. Nagar, Chennai",
+    "branchName": "Central Tower",
+    "address": "45 Thyagaraya Road, T. Nagar, Chennai 600017",
+    "placeId": "",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Grand+Palace+Hotel+%26+Restaurant+T.+Nagar+Chennai",
+    "buttonLabel": "Share Your Experience on Google",
+    "theme": "custom",
+    "customColors": {
+      "bg": "#1E1B4B",
+      "text": "#FDE047",
+      "border": "#FACC15",
+      "hoverBg": "#312E81"
+    },
+    "placement": [
+      "qr_menu",
+      "header",
+      "feedback",
+      "review_modal",
+      "website"
+    ],
+    "status": "active",
+    "verified": true,
+    "clickCount": 22,
+    "createdAt": "2026-10-25T10:00:00.000Z",
+    "updatedAt": "2026-10-26T18:00:00.000Z"
+  },
+  {
+    "id": "rev_taj-connemara_main_682s",
+    "hotelId": "taj-connemara",
+    "branchId": "main",
+    "hotelName": "Taj Connemara",
+    "location": "Chennai",
+    "branchName": "Main Branch",
+    "address": "",
+    "placeId": "",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Taj%20Connemara%20Chennai",
+    "buttonLabel": "Review us on Google",
+    "theme": "light",
+    "customColors": {
+      "bg": "#FFFFFF",
+      "text": "#101B35",
+      "border": "#E8EAF0",
+      "hoverBg": "#FFF8E7"
+    },
+    "placement": [
+      "qr_menu",
+      "header",
+      "feedback",
+      "review_modal",
+      "website"
+    ],
+    "status": "active",
+    "verified": false,
+    "clickCount": 0,
+    "createdAt": "2026-10-26T12:36:06.722Z",
+    "updatedAt": "2026-10-26T12:36:06.722Z"
+  }
+]

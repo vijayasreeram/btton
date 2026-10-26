@@ -7,6 +7,7 @@ import {
   CheckCircle2,
   ShieldCheck,
 } from 'lucide-react';
+import GoogleReviewButton from './GoogleReviewButton';
 
 const HIGHLIGHT_TAGS = [
   'Delicious Food',
@@ -125,6 +126,24 @@ export default function FeedbackPage({
             <ShieldCheck className="w-3.5 h-3.5" />
             <span>100% Anonymous & Confidential</span>
           </div>
+
+          {/* Dynamic Google Review Prompt for Happy Guests */}
+          {overallRating >= 4 && (
+            <div className="pt-2 pb-1 space-y-2 text-left bg-[#FFFCF7] p-3.5 rounded-2xl border border-[#FDE68A]">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-amber-900">
+                <Star className="w-4 h-4 fill-amber-400 text-amber-500" />
+                <span>Glad you enjoyed your meal!</span>
+              </div>
+              <p className="text-[11px] text-gray-600 leading-normal">
+                Could you take 15 seconds to share your review on Google? It means the world to our team.
+              </p>
+              <GoogleReviewButton
+                hotelId={slug}
+                variant="default"
+                placement="feedback"
+              />
+            </div>
+          )}
 
           {/* Action buttons */}
           <div className="pt-4 flex flex-col gap-2.5">
